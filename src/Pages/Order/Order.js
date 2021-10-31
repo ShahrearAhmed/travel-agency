@@ -11,21 +11,21 @@ const Order = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-    const handleDelete = id => {
-        const url = `http://localhost:5000/services/${id}`;
-        fetch(url, {
-            method: 'DELETE'
-        })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                if (data.deletedCount) {
-                    alert('deleted');
-                    const remaining = services.filter(service => service._id !== id);
-                    setServices(remaining);
-                }
-            })
-    }
+    // const handleDelete = id => {
+    //     const url = `http://localhost:5000/services/${id}`;
+    //     fetch(url, {
+    //         method: 'DELETE'
+    //     })
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             console.log(data);
+    //             if (data.deletedCount) {
+    //                 alert('deleted');
+    //                 const remaining = services.filter(service => service._id !== id);
+    //                 setServices(remaining);
+    //             }
+    //         })
+    // }
 
 
 
@@ -40,8 +40,12 @@ const Order = () => {
                     <img src={service.img} alt="" />
                     <br></br>
                     <br></br>
-                    <button className="button" onClick={() => handleDelete(service._id)}>Delete</button>
+                    {/* <button className="button" onClick={() => handleDelete(service._id)}>Delete</button> */}
+                    <textarea className="add-service" placeholder="Address" />
+                    <br />
+                    <button className="color">Order Place</button>
                 </div>)
+
 
             }
         </div >
