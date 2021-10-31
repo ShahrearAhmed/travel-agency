@@ -39,12 +39,15 @@ function App() {
             {/* <Route path="/addService">
               <AddBooking></AddBooking>
             </Route> */}
+            
             <PrivateRoute path="/addService">
               <AddBooking></AddBooking>
             </PrivateRoute>
+            
             <PrivateRoute path="/manageServices">
               <ManageServices></ManageServices>
             </PrivateRoute>
+            
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>
@@ -52,6 +55,9 @@ function App() {
               <Details></Details> */}
             <PrivateRoute path="/offering">
               <Offering></Offering>
+            </PrivateRoute>
+            <PrivateRoute path="/order/:serviceId">
+              <Order></Order>
             </PrivateRoute>
             {/* <PrivateRoute path="/offering">
               <Offering></Offering>

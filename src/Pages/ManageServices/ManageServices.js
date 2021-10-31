@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Home/Service/Service';
+import './ManageServices.css';
 
 const ManageServices = () => {
     const [services, setServices] = useState([])
@@ -28,12 +29,12 @@ const ManageServices = () => {
 
             {
                 services.map(service => <div key={service._id} >
-                    <h3>{service.name}</h3>
-                    <h3>{service.description}</h3>
+                    <h3 class="mt-5">{service.name}</h3>
+                    <p class="mt-3">{service.description}</p>
                     <img src={service.img} alt="" />
                     <br></br>
                     <br></br>
-                    <button onClick={() => handleDelete(service._id)}>Delete</button>
+                    <button className="button" onClick={() => handleDelete(service._id)}>Delete</button>
                 </div>)
 
             }
