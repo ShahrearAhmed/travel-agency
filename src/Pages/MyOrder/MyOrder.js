@@ -16,7 +16,7 @@ const MyOrder = () => {
             .then(data => {
                 console.log(data);
                 if (data.deletedCount) {
-                    alert('deleted');
+                    alert('cancel');
                     const remaining = services.filter(service => service._id !== id);
                     setServices(remaining);
                 }
