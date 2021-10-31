@@ -15,6 +15,7 @@ import Offering from './Pages/Offering/Offering';
 import AddBooking from './Pages/AddBooking/AddBooking';
 import Booking from './Pages/Booking/Booking';
 import ManageServices from './Pages/ManageServices/ManageServices';
+import MyOrder from './Pages/MyOrder/MyOrder';
 
 
 function App() {
@@ -39,15 +40,17 @@ function App() {
             {/* <Route path="/addService">
               <AddBooking></AddBooking>
             </Route> */}
-            
+
             <PrivateRoute path="/addService">
               <AddBooking></AddBooking>
             </PrivateRoute>
-            
+            <PrivateRoute path="/myOrder">
+              <MyOrder></MyOrder>
+            </PrivateRoute>
             <PrivateRoute path="/manageServices">
               <ManageServices></ManageServices>
             </PrivateRoute>
-            
+
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>

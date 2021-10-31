@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { useForm } from "react-hook-form";
 import './Order.css';
+import { Link } from 'react-router-dom';
 
 const Order = () => {
 
@@ -43,7 +44,11 @@ const Order = () => {
                     {/* <button className="button" onClick={() => handleDelete(service._id)}>Delete</button> */}
                     <textarea className="add-service" placeholder="Address" />
                     <br />
-                    <button className="color">Order Place</button>
+                    <Link to={`/myOrder`}>
+                        <button className="color">Order Place</button>
+                    </Link>
+
+                    {/* <button className="color">Order Place</button> */}
                 </div>)
 
 
