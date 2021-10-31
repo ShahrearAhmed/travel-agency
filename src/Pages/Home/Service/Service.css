@@ -1,0 +1,22 @@
+.service{
+    background-color: rgb(233, 220, 245);
+    border-radius: 15px;
+}
+
+.service img{
+    height: 370px;
+    border-radius: 10px;
+}
+
+h3{
+    color: rgb(23, 81, 190);
+}
+.price{
+    background-color:turquoise ;
+    margin-left: 170px; ;
+    width:30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
