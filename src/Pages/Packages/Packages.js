@@ -11,7 +11,7 @@ const Packages = () => {
     }, []);
     return (
         <div class="mt-5">
-            <h3>Package Tour</h3>
+            <h3 className="font">Select Your Best Package <br />For Your Travel</h3>
             <div className="package-container">
                 {events.map((event) => (
                     <Package event={event}></Package>

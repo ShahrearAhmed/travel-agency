@@ -1,22 +1,42 @@
 [
     {
-        "place": "Shilong and Shiliguri",
+        "place": "France and Spain",
         "id": 1,
-        "img": "https://i.ibb.co/TMnpVVn/8.jpg",
+        "img": "https://www.schengenvisainfo.com/wp-content/uploads/2019/01/Paris-France.jpg",
         "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
         "cost": 7000
     },
     {
-        "place": "Katmundo and Butan",
+        "place": "Istambul And Ankara",
         "id": 2,
-        "img": "https://i.ibb.co/TMnpVVn/8.jpg",
+        "img": "https://www.schengenvisainfo.com/wp-content/uploads/2019/01/Mallorca-Spain.jpg",
         "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
         "cost": 9000
     },
     {
         "place": "Nayagra and Hilview",
         "id": 3,
-        "img": "https://i.ibb.co/TMnpVVn/8.jpg",
+        "img": "https://www.schengenvisainfo.com/wp-content/uploads/2019/01/Istanbul-Turkey.jpg",
+        "cost": 29000
+    },
+    {
+        "place": "Berlin And Franfruit",
+        "id": 4,
+        "img": "https://www.schengenvisainfo.com/wp-content/uploads/2019/01/Frankfurt-Germany.jpg",
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "cost": 7000
+    },
+    {
+        "place": "London And Manchester",
+        "id": 5,
+        "img": "https://www.schengenvisainfo.com/wp-content/uploads/2019/01/Tower-Bridge-London.jpg",
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "cost": 9000
+    },
+    {
+        "place": "Vetica And Austria",
+        "id": 6,
+        "img": "https://www.schengenvisainfo.com/wp-content/uploads/2019/01/Santorini-Greece.jpg",
         "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
         "cost": 29000
     }

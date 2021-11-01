@@ -11,7 +11,7 @@ const Events = () => {
     }, []);
     return (
         <div class="mt-5">
-            <h3>Upcoming Events</h3>
+            <h3 className="font">Upcoming Events</h3>
             <div className="event-container">
                 {events.map((event) => (
                     <Event event={event}></Event>
