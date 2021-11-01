@@ -1,22 +1,43 @@
 [
     {
-        "name": "Zimbabwe Tour",
+        "name": "Paris Hill Tour",
         "id": 1,
-        "img": "https://img.thedailybeast.com/image/upload/v1580504675/200130-Japhe-feature-Kuala-Lumpur-tease_lztdlt.jpg",
+        "img": "https://www.tourx-react.egenslab.com/static/media/pd-thumb.5f0185b5.png",
         "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
         "price": 7000
     },
     {
-        "name": "Kualampur Tour",
+        "name": "Lake Garda, Italy",
         "id": 2,
-        "img": "https://i.ibb.co/TMnpVVn/8.jpg",
+        "img": "https://fullsuitcase.com/wp-content/uploads/2016/11/Lake-Garda-in-Italy.jpg.webp",
         "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
         "price": 9000
     },
     {
-        "name": "Pataya Tour",
+        "name": "Mount Dtna, Italyr",
         "id": 3,
-        "img": "https://i.ibb.co/TMnpVVn/8.jpg",
+        "img": "https://cdn.britannica.com/78/150178-050-32C89734/Mount-Etna-Bronte-Italy.jpg",
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "price": 29000
+    },
+    {
+        "name": "Amalfi Costa, Italy",
+        "id": 4,
+        "img": "https://www.worldatlas.com/r/w1200-q80/upload/a2/40/b9/atrani-amalfi-coast-italy-igorzh.jpg",
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "price": 7000
+    },
+    {
+        "name": "French Rivira, France",
+        "id": 5,
+        "img": "https://www.thepinnaclelist.com/wp-content/uploads/2021/07/French-Riviera-Villefranche-sur-Mer-Nice-Provence-Alpes-Cote-dAzur-France-Top-10-Luxury-Travel-Destinations-Around-the-World.jpg",
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "price": 9000
+    },
+    {
+        "name": "Lake Geneva, France",
+        "id": 6,
+        "img": "https://www.lakepedia.com/images/lakes/lake-geneva-parallax.jpg",
         "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
         "price": 29000
     }
