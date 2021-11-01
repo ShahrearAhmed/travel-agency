@@ -1,9 +1,9 @@
-.event {
+.package {
     background-color: rgba(209, 231, 235, 0.671);
     border-radius: 15px;
   }
   
-  .event img {
+  .package img {
     height: 370px;
     border-radius: 10px;
   }
