@@ -1,0 +1,9 @@
+.event {
+    background-color: rgb(233, 220, 245);
+    border-radius: 15px;
+  }
+  
+  .event img {
+    height: 370px;
+    border-radius: 10px;
+  }
