@@ -3,18 +3,21 @@
         "name": "Zimbabwe Tour",
         "id": 1,
         "img": "https://i.ibb.co/TMnpVVn/8.jpg",
-        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes."
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "price": 7000
     },
     {
-        "name": "Zimbabwe Tour",
+        "name": "Kualampur Tour",
         "id": 2,
         "img": "https://i.ibb.co/TMnpVVn/8.jpg",
-        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes."
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "price": 9000
     },
     {
-        "name": "Zimbabwe Tour",
+        "name": "Pataya Tour",
         "id": 3,
         "img": "https://i.ibb.co/TMnpVVn/8.jpg",
-        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes."
+        "description": "This is definitely one of the best travel quotes of all time, but it certainly reads true. When you travel, the whole world opens up. Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+        "price": 29000
     }
 ]
