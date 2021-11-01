@@ -5,7 +5,7 @@ import "./Events.css";
 const Events = () => {
     const [events, setEvents] = useState([]);
     useEffect(() => {
-        fetch("events.json")
+        fetch("https://raw.githubusercontent.com/ShahrearAhmed/travel-agency/master/public/events.json")
             .then((res) => res.json())
             .then((data) => setEvents(data));
     }, []);
